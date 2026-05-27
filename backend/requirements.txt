@@ -8,5 +8,5 @@ python-dotenv==1.0.0
 sentence-transformers==2.7.0
 faiss-cpu
 numpy==1.26.4
-Pillow==10.1.0
+Pillow==10.4.0
 django-filter==23.3
