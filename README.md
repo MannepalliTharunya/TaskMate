@@ -78,20 +78,9 @@ cd TaskMind
 ```bash
 cd backend
 pip install -r requirements.txt
-cp .env.example .env
 ```
 
-Edit `.env` and set your values:
-
-```env
-SECRET_KEY=your-secret-key-here          # required — any long random string
-DEBUG=True
-DB_NAME=task_knowledge_db
-DB_USER=taskai                           # or root
-DB_PASSWORD=your_db_password
-DB_HOST=127.0.0.1
-DB_PORT=3306
-```
+The `.env` file is included in the repo with working local credentials — no changes needed to get started.
 
 ### 3. MySQL setup
 
@@ -144,7 +133,44 @@ The frontend proxies `/api` requests to `http://localhost:8000` automatically.
 
 ---
 
-## Demo Credentials
+## Quick Start — Copy-Paste Ready
+
+Everything you need to run this project locally is below. No guessing.
+
+### backend/.env (already included in repo)
+
+```env
+SECRET_KEY=django-insecure-taskai-dev-secret-key-change-in-production-xyz123
+DEBUG=True
+
+DB_NAME=task_knowledge_db
+DB_USER=taskai
+DB_PASSWORD=TaskAI@123
+DB_HOST=127.0.0.1
+DB_PORT=3306
+
+JWT_ACCESS_TOKEN_LIFETIME_MINUTES=60
+JWT_REFRESH_TOKEN_LIFETIME_DAYS=7
+
+ALLOWED_HOSTS=localhost,127.0.0.1
+CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+
+MEDIA_ROOT=media/
+FAISS_INDEX_PATH=faiss_index/
+```
+
+### MySQL — run once in Workbench or CLI
+
+```sql
+CREATE USER IF NOT EXISTS 'taskai'@'localhost' IDENTIFIED BY 'TaskAI@123';
+CREATE USER IF NOT EXISTS 'taskai'@'127.0.0.1' IDENTIFIED BY 'TaskAI@123';
+CREATE DATABASE IF NOT EXISTS task_knowledge_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL PRIVILEGES ON task_knowledge_db.* TO 'taskai'@'localhost';
+GRANT ALL PRIVILEGES ON task_knowledge_db.* TO 'taskai'@'127.0.0.1';
+FLUSH PRIVILEGES;
+```
+
+### Login credentials (after setup)
 
 | Role | Email | Password |
 |---|---|---|

@@ -10,7 +10,6 @@ build/
 *.egg
 
 # ── Django ────────────────────────────────────────────────────────────────────
-backend/.env
 backend/staticfiles/
 backend/media/
 backend/logs/
