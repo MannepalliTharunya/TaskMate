@@ -238,3 +238,38 @@ GET /api/tasks/?assigned_to=2        (admin only)
 | `ALLOWED_HOSTS` | No | `localhost,127.0.0.1` | Comma-separated hosts |
 | `CORS_ALLOWED_ORIGINS` | No | `http://localhost:3000` | Comma-separated origins |
 | `FAISS_INDEX_PATH` | No | `faiss_index/` | FAISS index directory |
+<img width="1917" height="911" alt="Screenshot 2026-05-28 111155" src="https://github.com/user-attachments/assets/30fd5790-9cd1-4eed-9c2c-7d25ae981eb5" />
+<img width="1916" height="888" alt="Screenshot 2026-05-28 111455" src="https://github.com/user-attachments/assets/410ece92-d41d-4618-9cc1-45d51d5e7a15" />
+<img width="1915" height="896" alt="Screenshot 2026-05-28 111802" src="https://github.com/user-attachments/assets/8f4b5f2f-e373-44cb-abad-32cdb2c67dd9" />
+<img width="1916" height="903" alt="Screenshot 2026-05-28 111830" src="https://github.com/user-attachments/assets/4c3b12ff-13a7-4250-8de0-12a5f3b02ce8" />
+<img width="1919" height="907" alt="Screenshot 2026-05-28 111844" src="https://github.com/user-attachments/assets/2a97fdfb-8d1c-426a-94e4-aa43b4956f77" />
+<img width="1919" height="897" alt="Screenshot 2026-05-28 111900" src="https://github.com/user-attachments/assets/a76de24e-bfc9-4dfd-af6f-f34b78265429" />
+
+<img width="1917" height="904" alt="Screenshot 2026-05-28 112014" src="https://github.com/user-attachments/assets/cb880340-adbd-4abe-92f4-988e150bfb47" />
+
+<img width="1919" height="885" alt="Screenshot 2026-05-28 112023" src="https://github.com/user-attachments/assets/7d658211-42cb-435d-a54a-81aaff7f7d77" />
+
+<img width="1919" height="916" alt="Screenshot 2026-05-28 112034" src="https://github.com/user-attachments/assets/786d4618-7b78-4f92-83b8-9671d7158d25" />
+
+<img width="1919" height="901" alt="Screenshot 2026-05-28 112103" src="https://github.com/user-attachments/assets/a9152ea7-8434-4a24-a832-b2d94d42731e" />
+
+<img width="1919" height="899" alt="Screenshot 2026-05-28 112111" src="https://github.com/user-attachments/assets/283ba646-3ddf-451f-8ccb-e2b15c1a0767" />
+
+<img width="1919" height="893" alt="Screenshot 2026-05-28 112119" src="https://github.com/user-attachments/assets/cd1c20b2-c6b6-4f3e-9789-b1f812a401cc" />
+
+
+<img width="1919" height="901" alt="Screenshot 2026-05-28 112126" src="https://github.com/user-attachments/assets/9f11160a-5405-4b48-bc21-76ffc3b28f58" />
+
+<img width="1916" height="900" alt="Screenshot 2026-05-28 112144" src="https://github.com/user-attachments/assets/a2d03a88-e4df-4366-901f-104bec8f21cf" />
+
+
+
+
+
+
+
+
+
+
+
+
